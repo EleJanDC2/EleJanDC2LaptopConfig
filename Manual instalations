@@ -1,0 +1,18 @@
+<---------- Bluetooth ---------->
+
+sudo apt install bluetooth bluez blueman
+
+sudo systemctl enable bluetooth.service
+sudo systemctl start bluetooth.service
+
+# IN ~/.config/i3/config add:
+    exec --no-startup-id blueman-applet
+    bindsym $mod+b exec blueman-manager
+
+
+
+
+
+
+
+
