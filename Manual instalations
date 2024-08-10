@@ -18,6 +18,9 @@ https://github.com/alacritty/alacritty
 <---------- Polybar ---------->
 https://github.com/polybar/polybar
 
+IN ~/.config/i3/config
+    exec_always ~/.config/polybar/launch.sh &
+
 <---------- Bluetooth ---------->
 sudo apt install bluetooth bluez blueman
 
@@ -47,6 +50,11 @@ ln -s ~/.bin/my_compiled_programs/nnn/nnn ~/.bin/nnn
 
 
 
+<---------- OTHER ---------->
+
+#tapeta
+IN ~/.config/i3/config
+    exec_always feh --bg-fill ~/Pictures/wallpaper_main.jpeg
 
 
 
