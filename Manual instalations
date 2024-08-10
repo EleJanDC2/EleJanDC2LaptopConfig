@@ -1,7 +1,7 @@
 app-repositories: sudo apt install software-properties-common
 
 mkdir ~/.bin/my_compiled_programs
-
+sudo apt install curl git
 
 
 <---------- i3 - gaps ---------->
@@ -11,6 +11,11 @@ https://github.com/Airblader/i3
 sudo apt install dmenu
 
 <---------- sound ---------->
+sudo apt install alsa-utils pulseaudio pavucontrol pulseaudio-utils
+
+pulseaudio --start
+
+sudo systemctl restart pulseaudio
 
 <---------- Terminal ---------->
 https://github.com/alacritty/alacritty
