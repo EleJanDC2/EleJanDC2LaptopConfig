@@ -1,5 +1,11 @@
 app-repositories: sudo apt install software-properties-common
 
+<---------- Terminal ---------->
+https://github.com/alacritty/alacritty
+
+<---------- Polybar ---------->
+https://github.com/polybar/polybar
+
 <---------- Bluetooth ---------->
 
 sudo apt install bluetooth bluez blueman
@@ -17,6 +23,14 @@ https://github.com/JoseExposito/touchegg
 <---------- NNN (file manager) ---------->
 https://github.com/jarun/nnn
 
+sudo apt-get install pkg-config libncursesw5-dev libreadline-dev
+cd ~/.bin
+
+git clone https://github.com/jarun/nnn.git
+
+cd nnn
+
+make O_NERD=1
 
 
 
