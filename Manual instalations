@@ -7,6 +7,9 @@ mkdir ~/.bin/my_compiled_programs
 <---------- i3 - gaps ---------->
 https://github.com/Airblader/i3
 
+<---------- dmenu ? ---------->
+sudo apt install dmenu
+
 <---------- sound ---------->
 
 <---------- Terminal ---------->
@@ -16,7 +19,6 @@ https://github.com/alacritty/alacritty
 https://github.com/polybar/polybar
 
 <---------- Bluetooth ---------->
-
 sudo apt install bluetooth bluez blueman
 
 sudo systemctl enable bluetooth.service
