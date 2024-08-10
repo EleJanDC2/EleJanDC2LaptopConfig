@@ -1,3 +1,5 @@
+app-repositories: sudo apt install software-properties-common
+
 <---------- Bluetooth ---------->
 
 sudo apt install bluetooth bluez blueman
@@ -8,6 +10,9 @@ sudo systemctl start bluetooth.service
 # IN ~/.config/i3/config add:
     exec --no-startup-id blueman-applet
     bindsym $mod+b exec blueman-manager
+
+<---------- TouchEgg (touchpad gestures) ---------->
+https://github.com/JoseExposito/touchegg
 
 
 
