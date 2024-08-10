@@ -14,6 +14,9 @@ sudo systemctl start bluetooth.service
 <---------- TouchEgg (touchpad gestures) ---------->
 https://github.com/JoseExposito/touchegg
 
+<---------- NNN (file manager) ---------->
+https://github.com/jarun/nnn
+
 
 
 
