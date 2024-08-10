@@ -1,5 +1,14 @@
 app-repositories: sudo apt install software-properties-common
 
+mkdir ~/.bin/my_compiled_programs
+
+
+
+<---------- i3 - gaps ---------->
+https://github.com/Airblader/i3
+
+<---------- sound ---------->
+
 <---------- Terminal ---------->
 https://github.com/alacritty/alacritty
 
@@ -24,13 +33,15 @@ https://github.com/JoseExposito/touchegg
 https://github.com/jarun/nnn
 
 sudo apt-get install pkg-config libncursesw5-dev libreadline-dev
-cd ~/.bin
+cd ~/.bin/my_compiled_programs
 
 git clone https://github.com/jarun/nnn.git
 
 cd nnn
 
 make O_NERD=1
+
+ln -s ~/.bin/my_compiled_programs/nnn/nnn ~/.bin/nnn
 
 
 
