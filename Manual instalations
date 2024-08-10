@@ -69,7 +69,18 @@ make O_NERD=1
 
 ln -s ~/.bin/my_compiled_programs/nnn/nnn ~/.bin/nnn
 
+<---------- GOTOP ---------->
+https://github.com/cjbassi/gotop
 
+cd ~/.bin/my_compiled_programs
+
+git clone https://github.com/cjbassi/gotop
+
+gotop/scripts/download.sh
+
+cd ~/.bin
+
+ln -s my_compiled_programs/gotop/gotop gotop
 
 <---------- OTHER ---------->
 
