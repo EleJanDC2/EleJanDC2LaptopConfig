@@ -7,6 +7,15 @@ sudo apt install curl git
 <---------- i3 - gaps ---------->
 https://github.com/Airblader/i3
 
+<---------- picom (composite manager) ---------->
+sudo apt install picom
+
+mkdir -p ~/.config/picom
+nano ~/.config/picom/picom.conf
+
+IN ~/.config/i3/config :
+    exec_always --no-startup-id picom -b
+
 <---------- dmenu ? ---------->
 sudo apt install dmenu
 
@@ -23,7 +32,7 @@ https://github.com/alacritty/alacritty
 <---------- Polybar ---------->
 https://github.com/polybar/polybar
 
-IN ~/.config/polybar$ cat launch.sh
+IN ~/.config/polybar/launch.sh :
     #!/usr/bin/env bash
 
     # Terminate already running bar instances
@@ -39,7 +48,7 @@ IN ~/.config/polybar$ cat launch.sh
 
     echo "Bars launched..."
 
-IN ~/.config/i3/config
+IN ~/.config/i3/config :
     exec_always ~/.config/polybar/launch.sh &
 
 <---------- Bluetooth ---------->
