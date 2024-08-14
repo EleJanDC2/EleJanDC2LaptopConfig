@@ -16,8 +16,10 @@ nano ~/.config/picom/picom.conf
 IN ~/.config/i3/config :
     exec_always --no-startup-id picom -b
 
-<---------- dmenu ? ---------->
+<---------- dmenu (old - not in use) ---------->
 sudo apt install dmenu
+
+<---------- rofi ---------->
 
 <---------- sound ---------->
 sudo apt install alsa-utils pulseaudio pavucontrol pulseaudio-utils
