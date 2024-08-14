@@ -66,6 +66,12 @@ sudo systemctl start bluetooth.service
 <---------- TouchEgg (touchpad gestures) ---------->
 https://github.com/JoseExposito/touchegg
 
+Download a .deb
+
+sudo apt install libpugixml1v5
+
+sudo dpkg -i xxx.deb
+
 <---------- NNN (file manager) ---------->
 https://github.com/jarun/nnn
 
