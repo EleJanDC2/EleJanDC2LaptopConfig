@@ -1,4 +1,4 @@
-app-repositories: sudo apt install software-properties-common
+{}app-repositories: sudo apt install software-properties-common
 
 mkdir ~/.bin/my_compiled_programs
 sudo apt install curl git
@@ -63,7 +63,7 @@ sudo systemctl start bluetooth.service
     exec --no-startup-id blueman-applet
     bindsym $mod+b exec blueman-manager
 
-<---------- TouchEgg (touchpad gestures) and touch (for nonfiguration TouchEgg)---------->
+<---------- TouchEgg (touchpad gestures) and touch (for nonfiguration TouchEgg) [NOT IN USE]---------->
 https://github.com/JoseExposito/touchegg
 
 Download a .deb
@@ -71,6 +71,18 @@ Download a .deb
 sudo apt install libpugixml1v5 gjs
 
 sudo dpkg -i xxx.deb
+
+<---------- libinput ---------->
+sudo apt install libinput-tools xdotool
+
+IN ~/.bin/mycompiled_programs
+
+git clone https://github.com/bulletmark/libinput-gestures.git
+cd libinput-gestures
+sudo make install
+
+sudo gpasswd -a $USER input
+
 
 <---------- NNN (file manager) ---------->
 https://github.com/jarun/nnn
