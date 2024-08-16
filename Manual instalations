@@ -28,6 +28,16 @@ pulseaudio --start
 
 sudo systemctl restart pulseaudio
 
+<---------- screen brightness controll --------->
+sudo apt install brightnessctl
+
+IN ~/.config/i3/config :
+    # Zwiększ jasność
+    bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +10%
+    # Zmniejsz jasność
+    bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 10%-
+
+
 <---------- Terminal ---------->
 https://github.com/alacritty/alacritty
 
