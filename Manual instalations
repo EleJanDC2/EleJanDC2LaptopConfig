@@ -73,7 +73,7 @@ sudo apt install libpugixml1v5 gjs
 sudo dpkg -i xxx.deb
 
 <---------- libinput ---------->
-sudo apt install libinput-tools xdotool
+sudo apt install libinput-tools xdotool wmctrl
 
 IN ~/.bin/mycompiled_programs
 
