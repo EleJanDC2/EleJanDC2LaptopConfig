@@ -121,6 +121,12 @@ cd ~/.bin
 
 ln -s my_compiled_programs/gotop/gotop gotop
 
+<---------- PICTURES ---------->
+sudo apt isntall sxiv
+
+<---------- VIDEO ---------->
+sudo apt install vlc mpv
+
 <---------- OTHER ---------->
 
 #tapeta
