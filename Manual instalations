@@ -108,6 +108,8 @@ make O_NERD=1
 
 ln -s ~/.bin/my_compiled_programs/nnn/nnn ~/.bin/nnn
 
+sudo apt install rclone
+
 <---------- GOTOP ---------->
 https://github.com/cjbassi/gotop
 
