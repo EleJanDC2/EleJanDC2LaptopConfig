@@ -1,0 +1,3 @@
+Install qt from wizard.
+
+sudo apt install qt6-declarative-dev
