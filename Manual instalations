@@ -93,6 +93,7 @@ sudo make install
 
 sudo gpasswd -a $USER input
 
+libinput-gestures-setup autostart
 
 <---------- NNN (file manager) ---------->
 https://github.com/jarun/nnn
