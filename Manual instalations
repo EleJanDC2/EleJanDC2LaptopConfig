@@ -130,6 +130,11 @@ sudo apt isntall sxiv
 <---------- VIDEO ---------->
 sudo apt install vlc mpv
 
+<---------- multi monitors ---------->
+xrandr - wyświetla podpięte monitory
+
+sudo apt install arandr
+
 <---------- OTHER ---------->
 
 #tapeta
